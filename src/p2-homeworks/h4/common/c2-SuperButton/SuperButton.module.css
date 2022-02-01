@@ -1,7 +1,74 @@
 .default {
-
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid cornflowerblue;
+    border-radius: 0.6em;
+    color: cornflowerblue;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.default:hover, .default:focus {
+    color: #fff;
+    outline: 0;
 }
 
-.red {
-    background: red;
+.default:hover {
+    box-shadow: 0 0 40px 40px cornflowerblue inset;
+}
+
+.deleteBtn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 0.6em;
+    color: red;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.deleteBtn:hover, .deleteBtn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.deleteBtn:hover {
+    box-shadow: 0 0 40px 40px red inset;
+}
+
+.disableBtn {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
