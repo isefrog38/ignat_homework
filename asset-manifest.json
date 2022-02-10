@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ignat_homework.github.io/static/css/main.a1b25f32.css",
+    "main.js": "/ignat_homework.github.io/static/js/main.ea0e738a.js",
+    "index.html": "/ignat_homework.github.io/index.html",
+    "main.a1b25f32.css.map": "/ignat_homework.github.io/static/css/main.a1b25f32.css.map",
+    "main.ea0e738a.js.map": "/ignat_homework.github.io/static/js/main.ea0e738a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1b25f32.css",
+    "static/js/main.ea0e738a.js"
+  ]
+}
