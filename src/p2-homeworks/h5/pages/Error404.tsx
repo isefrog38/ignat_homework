@@ -3,10 +3,10 @@ import s from '../AllStyles.module.css';
 
 export function Error404() {
     return (
-        <div className={s.ERROR}>
-            <div>404</div>
-            <div>Page not found!</div>
-            <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+        <div className={s.error}>
+            <h1>404</h1>
+            <h1>ERROR</h1>
+            <h1>PAGES NOT FOUND</h1>
         </div>
     )
 }

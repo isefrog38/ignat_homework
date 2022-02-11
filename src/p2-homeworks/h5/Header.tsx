@@ -1,21 +1,15 @@
 import React from 'react';
-import {HomePage} from "./HomePage";
+import s from './AllStyles.module.css';
 import {Links} from "./pages/Links";
-import {AllRoutes} from "./Routes";
-import {Error404} from "./pages/Error404";
-
-let error = {
-
-}
+import {Routings} from "./Routings";
 
 function Header() {
     return (
-        <>
+        <div className={s.block}>
             <Links/>
-            { error ? <HomePage/> : <Error404/>}
             <hr/>
-            <AllRoutes/>
-        </>
+            <Routings/>
+        </div>
     )
 }
 
