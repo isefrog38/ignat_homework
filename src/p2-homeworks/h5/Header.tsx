@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './AllStyles.module.css';
-import {Links} from "./pages/Links";
+import {Links} from "./Links";
 import {Routings} from "./Routings";
 
 function Header() {
