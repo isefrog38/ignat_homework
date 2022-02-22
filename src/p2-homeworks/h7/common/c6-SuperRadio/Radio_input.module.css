@@ -6,14 +6,10 @@
     appearance: none;
 }
 
-.radio_input:hover {
+.radio_input:checked {
     background-color: gold;
 }
 
-.radio_input:focus{
-    background-color: gold;
-}
-
-.active {
-    background-color: gold;
+.radio_input:hover{
+    background-color: dodgerblue;
 }

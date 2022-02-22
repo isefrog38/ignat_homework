@@ -12,7 +12,7 @@ function AlternativeSuperSelect ({items, value, onChange}: Select) {
     const [collapsed, setCollapsed] = useState<boolean>(false);
     const onClickHandler = () => setCollapsed(!collapsed);
     const selectedItem = items.find(e => e === value);
-    const blur = (e: FocusEvent<HTMLSpanElement>) => e;
+    const blur = () => setCollapsed(false);
     const onClickItem = (value: string) => {
         onChange(value);
     }
@@ -24,7 +24,7 @@ function AlternativeSuperSelect ({items, value, onChange}: Select) {
             </div>
             <span className={"invisibleDiv" + " " + (collapsed ? "active" : " ")} onBlur={blur}>
                 {collapsed && items.map(i => (
-                    <div tabIndex={0} onClick={() => onClickItem(i)} className={"item"} key={i} >{i}</div>))}
+                    <div tabIndex={0} onClick={() => onClickItem(i)} className={"item"} key={i}>{i}</div>))}
             </span>
         </div>
     )
