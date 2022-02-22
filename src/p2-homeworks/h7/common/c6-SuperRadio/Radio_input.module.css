@@ -1,0 +1,19 @@
+.radio_input {
+    width: 10px;
+    height: 10px;
+    border-radius: 30%;
+    border: 1px solid black;
+    appearance: none;
+}
+
+.radio_input:hover {
+    background-color: gold;
+}
+
+.radio_input:focus{
+    background-color: gold;
+}
+
+.active {
+    background-color: gold;
+}

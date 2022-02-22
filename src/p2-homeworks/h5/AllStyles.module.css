@@ -22,7 +22,7 @@
     background-color: transparent;
     border: none;
     border-radius: 10px;
-    color: darkgray;
+    color: gold;
     cursor: pointer;
     display: -webkit-box;
     display: -webkit-flex;
@@ -43,12 +43,11 @@
 .Buttons:hover, .Buttons:focus {
     color: #fff;
     outline: 0;
-    box-shadow: 0 0 40px 40px darkgray inset;
+    box-shadow: 0 0 40px 40px gold inset;
 }
 
 .welcome {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -85,7 +84,7 @@
 
 .arrow {
     position: absolute;
-    left: 300px;
+    left: 200px;
     cursor: pointer;
     top: 30px;
 }
@@ -95,7 +94,7 @@
     top: 20px;
     width: 90px;
     height: 10px;
-    background-color: darkgray;
+    background-color: gold;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     left:-50px;
     display: block;
@@ -107,7 +106,7 @@
     height: 10px;
     top: -11px;
     right: 60px;
-    background-color: darkgray;
+    background-color: gold;
     transform: rotate(-45deg);
 }
 .arrow div::before {
@@ -117,7 +116,7 @@
     height: 10px;
     top: 11px;
     right: 60px;
-    background-color: darkgray;
+    background-color: gold;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
     transform: rotate(45deg);
 }

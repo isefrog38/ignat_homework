@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
+import AlternativeSuperSelect from "./common/c5-SuperSelect/AlternativeSuperSelect";
 
 const arr = ['x', 'y', 'z']
 
@@ -28,11 +29,7 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperSelect/>*/}
-            {/*<AlternativeSuperRadio/>*/}
+            <AlternativeSuperSelect items={arr} value={value} onChange={onChangeOption} />
             <hr/>
         </div>
     )

@@ -1,0 +1,46 @@
+.invisibleDiv{
+    background-color: azure;
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    width: 110px;
+}
+
+.invisibleDiv.active {
+    display: block;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.item:hover{
+    background-color: gold;
+}
+.item:focus{
+    background-color: gold;
+}
+
+.divH{
+    margin-top: 50px;
+    max-width: 100px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-around
+}
+
+.divH:hover {
+    background-color: azure;
+}
+
+.arrow {
+    padding: 5px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: flex;
+    -webkit-transform: rotate(45deg);
+}

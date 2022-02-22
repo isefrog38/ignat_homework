@@ -1,0 +1,12 @@
+.select {
+    width: 90px;
+    padding: 5px;
+    color: black;
+    background-color: azure;
+    font-size: 15px;
+}
+
+.select:hover {
+    color: white;
+    background-color: darkgrey;
+}

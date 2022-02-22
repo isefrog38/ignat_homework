@@ -9,7 +9,7 @@ import HW6 from "../../h6/HW6";
 export function PreJunior() {
     return (
         <div className={s.main_pre_jun}>
-            <h1>Your Level = Pre-Junior</h1>
+            <h1>{`${"Level Pre-Junior ==> Your Pages"}`}</h1>
             <HW1/>
             <HW2/>
             <HW3/>
