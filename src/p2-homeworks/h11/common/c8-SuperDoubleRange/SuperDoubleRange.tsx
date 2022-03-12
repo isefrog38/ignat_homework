@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {ChangeEvent} from 'react'
+import {DefaultInputPropsType} from "../c7-SuperRange/SuperRange";
 
-type SuperDoubleRangePropsType = {
+type SuperDoubleRangePropsType = DefaultInputPropsType & {
     onChangeRange?: (value: [number, number]) => void
     value?: [number, number]
     // min, max, step, disable, ...
@@ -9,14 +10,19 @@ type SuperDoubleRangePropsType = {
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     {
         onChangeRange, value,
-        // min, max, step, disable, ...
+        ...restProps
     }
 ) => {
-    // сделать самому, можно подключать библиотеки
+
 
     return (
         <>
-            DoubleRange
+            <input
+                type={'range'}
+                /*onChange={onChangeCallback}*/
+
+                {...restProps}
+            />
         </>
     )
 }
