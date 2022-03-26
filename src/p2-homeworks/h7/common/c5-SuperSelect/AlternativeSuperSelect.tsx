@@ -10,6 +10,7 @@ type Select = {
 function AlternativeSuperSelect ({items, value, onChange}: Select) {
 
     const [collapsed, setCollapsed] = useState<boolean>(false);
+
     const onClickHandler = () => setCollapsed(!collapsed);
     const selectedItem = items.find(e => e === value);
     const blur = () => setCollapsed(false);

@@ -15,7 +15,6 @@ export const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     const [value2, setValue2] = React.useState<Array<number>>([0, 100]);
 
     useEffect(()=>{
-        debugger
         if(value) {
             setValue2(value)
         }

@@ -1,3 +1,9 @@
+.supers {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .dark {
     background: dimgrey;
 }
@@ -15,7 +21,7 @@
 }
 
 .some {
-    background: lightgreen;
+    background: #dccfb8;
 }
 
 .some-text {
